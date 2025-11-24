@@ -1,0 +1,18 @@
+{
+  "createUser": {
+    "name": "Pedro Picapiedra",
+    "job": "Operador de Dinosaurio"
+  },
+  "updateUser": {
+    "name": "Pedro Actualizado",
+    "job": "Supervisor de Cantera"
+  },
+  "createQAEngineer": {
+    "name": "Ana Martínez",
+    "job": "QA Automation Engineer"
+  },
+  "createDeveloper": {
+    "name": "Carlos López",
+    "job": "Backend Developer"
+  }
+}
