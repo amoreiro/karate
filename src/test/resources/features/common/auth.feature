@@ -46,5 +46,5 @@ Feature: Autenticación Reutilizable
     * def anonymousToken = response.access_token
     
     # Uso:
-    # * def tokenResult = call read('classpath:features/common/auth.feature@oauth')
+    # * def tokenResult = call read('classpath:features/common/auth.feature')
     # * def token = tokenResult.anonymousToken
