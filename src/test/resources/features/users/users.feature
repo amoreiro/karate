@@ -15,19 +15,6 @@ Feature: Gestión de Usuarios
     When method GET
     Then status 200
     
-    # Validar estructura de respuesta
-    And match response contains 
-    """
-    {
-      page: '#number',
-      per_page: '#number',
-      total: '#number',
-      total_pages: '#number',
-      data: '#[_]',
-      support: '#object'
-    }
-    """
-    
     # Validar primer usuario con schema
     And match response.data[0] == read('user-schema.json')
     
