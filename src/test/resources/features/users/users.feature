@@ -104,14 +104,6 @@ Feature: Gestión de Usuarios
     Then status 404
     And match response == {}
 
-  # ============================================
-  # EJERCICIO PARA EL ALUMNO
-  # ============================================
-  # TODO: Agregar un nuevo escenario que:
-  # 1. Cree un usuario
-  # 2. Lo actualice
-  # 3. Lo elimine
-  # 4. Verifique que ya no existe (404)
   
   @users @exercise @ignore
   Scenario: EJERCICIO - Flujo completo de usuario
